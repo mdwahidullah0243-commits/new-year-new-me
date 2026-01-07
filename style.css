@@ -155,10 +155,6 @@
     max-width: 77%;
     margin: 120px auto 0px auto;
     position: relative;
-    background-image: url('images/watch.png');
-    background-repeat: no-repeat;
-    border-radius: 8px;
-    background: linear-gradient(90.00deg, rgba(241, 91, 34, 1), rgba(241, 91, 34, 0) 100%);
 }
 #mindset-content {
     position: absolute;
@@ -189,4 +185,24 @@
     font-weight: 600;
     padding: 20px 36px;
     margin-top: 24px;
+}
+
+
+footer {
+    background-color: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 330px;
+}
+#future h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #F8F8F8;
+}
+#future-content p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
