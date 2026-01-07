@@ -67,6 +67,7 @@
     gap: 60px;
     margin-top: 100px;
 }
+
 #failures-content {
     margin-top: 100px;
 }
@@ -88,6 +89,7 @@
     list-style-position: inside;
     margin-top: 16px;
 }
+
 #failures-content-list li {
     color: #444343;
     padding-left: 30px;
@@ -115,30 +117,76 @@
     max-width: 77%;
     margin: 120px auto 0px auto;
 }
+
 #plan-heading h2 {
     font-size: 35px;
     font-weight: bold;
     text-align: center;
 }
+
 #plan-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
 }
+
 .plan-card-img {
     text-align: center;
 }
+
 .plan-card h3 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     margin-top: 24px;
 }
+
 .plan-card p {
     text-align: center;
     color: #737272;
     font-size: 25px;
     font-weight: 500;
     margin-top: 16px;
+}
+
+
+#mindset {
+    max-width: 77%;
+    margin: 120px auto 0px auto;
+    position: relative;
+    background-image: url('images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background: linear-gradient(90.00deg, rgba(241, 91, 34, 1), rgba(241, 91, 34, 0) 100%);
+}
+#mindset-content {
+    position: absolute;
+    top: 59px;
+    bottom: 59px;
+    left: 64px;
+    z-index: 2;
+}
+#gradient-3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+#gradient-3 img {
+    filter: opacity(80%);
+}
+#mindset-content h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+    max-width: 420px;
+}
+#mindset-content button {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    margin-top: 24px;
 }
